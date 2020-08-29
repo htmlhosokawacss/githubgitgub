@@ -1,5 +1,4 @@
 # githubgitgub
-![IMG_0874](https://user-images.githubusercontent.com/70134289/91632523-0f81b800-e9ea-11ea-98a7-15204946c139.jpg)
-
+![0874](https://user-images.githubusercontent.com/70134289/91632561-3b9d3900-e9ea-11ea-8007-13ea347faf94.jpg)
 
 samplepages
