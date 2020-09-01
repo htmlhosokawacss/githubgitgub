@@ -1,7 +1,187 @@
 * {
-  box-sizing: border-box;
+  margin:0 0;
+
+  
 }
 
-h1 {
-  color:#ff9800;
+body {
+  font-family: 'Apple Symbols';
+}
+
+.header-wrapper {
+  padding:40px 40px;
+  background-color:#C1CFD6;
+}
+
+.header-wrapper a {
+  font-size:30px;
+}
+
+
+/*したがメインのゾーン*/
+
+
+
+.main {
+  width:100%;
+  top:0;
+  background-color:#e0e5ec;
+
+}
+
+.main-wrapper {
+  padding-top:120px;
+  padding-bottom:100px;
+  padding-left:150px;
+  padding-right:100px;
+ 
+  
+}
+
+.main-wrapper h1 {
+
+  font-size:100px;
+  letter-spacing:0.03em;
+
+}
+
+
+
+.main-wrapper h2 {
+
+  font-size:80px;
+  margin-bottom:50px;
+  letter-spacing:0.03em;
+
+}
+
+.main-wrapper a {
+  font-size:23px;
+  letter-spacing:0.03em;
+  line-height:200%;
+}
+
+.main-btn   {
+  padding-left:150px;
+  margin-bottom:80px;
+  cursor:pointer;
+  display:inline-block;
+}
+
+
+
+.main-btn  :hover {
+  transition: 1.2s;
+  box-shadow: 9px 9px 16px #a3b1c6 inset, -9px -9px 16px #ffffff inset;
+}
+
+.btn :hover {
+  box-shadow:none;
+}
+
+.fa-twitter {
+  margin-right:30px;
+}
+
+.fa-envelope {
+  margin-right:30px;
+}
+
+.fa-instagram {
+  margin-right:30px;
+}
+
+.fa-github-alt {
+  margin-right:30px;
+}
+
+.btn {
+  padding:20px 40px;
+  margin:15px 0;
+  font-size:30px;
+  background-color:#e0e5ec;
+  border-radius:60px;
+  
+}
+
+.btn-text  {
+  letter-spacing:0.02em;
+  font-size:35px;
+}
+
+
+
+/*したがフォトのゾーン*/
+
+
+
+
+
+
+
+.photo-wrapper {
+  width:100%;
+  display:block;
+}
+
+.photo-text {
+  background-color:#e0e5ec;
+  font-size:50px;
+  font-weight: bold;
+  padding-top:25px;
+  padding-bottom: 70px;
+  text-align:center;
+  letter-spacing: 0.04em;
+}
+
+
+
+.photo  {
+  display:block;
+  background-color:#e0e5ec;
+  width:25%;
+  padding-bottom:30px;
+  float:left;
+}
+
+.photo img  {
+  width:90%;
+  opacity:0.7;
+  margin-left:5%;
+}
+
+
+
+
+.photo :hover {
+  opacity:1;
+  cursor:pointer;
+  transition:1s;
+}
+
+.photo p {
+  
+  padding:10px;
+}
+
+.footer-wrapper {
+  width:100%;
+  text-align:center;
+  background-color:#e0e5ec;
+  display:block;
+  padding-top:20px;
+
+}
+
+.footer-container {
+  padding:50px 0 ;
+
+}
+
+.footer-2020 {
+  
+  font-size:27px;
+  line-height:120%;
+  letter-spacing: 0.05em;
+ 
 }
