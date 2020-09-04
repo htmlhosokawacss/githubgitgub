@@ -1,7 +1,11 @@
 * {
   margin:0 0;
 
-  
+}
+
+a {
+  text-decoration: none;
+  color:black;
 }
 
 body {
@@ -64,7 +68,7 @@ body {
 .main-btn   {
   padding-left:150px;
   margin-bottom:80px;
-  cursor:pointer;
+  
   display:inline-block;
 }
 
@@ -73,10 +77,14 @@ body {
 .main-btn  :hover {
   transition: 1.2s;
   box-shadow: 9px 9px 16px #a3b1c6 inset, -9px -9px 16px #ffffff inset;
+  
 }
 
 .btn :hover {
   box-shadow:none;
+  cursor:pointer;
+  transition: 1.2s;
+  color:black;
 }
 
 .fa-twitter {
@@ -89,6 +97,7 @@ body {
 
 .fa-instagram {
   margin-right:30px;
+
 }
 
 .fa-github-alt {
@@ -100,6 +109,7 @@ body {
   margin:15px 0;
   font-size:30px;
   background-color:#e0e5ec;
+  display:block;
   border-radius:60px;
   
 }
@@ -107,7 +117,10 @@ body {
 .btn-text  {
   letter-spacing:0.02em;
   font-size:35px;
+  color:#e0e5ec;
+  
 }
+
 
 
 
@@ -153,6 +166,7 @@ body {
 
 
 
+
 .photo :hover {
   opacity:1;
   cursor:pointer;
@@ -160,9 +174,13 @@ body {
 }
 
 .photo p {
-  
   padding:10px;
 }
+
+.photomemo p {
+  font-size:50px;
+}
+
 
 .footer-wrapper {
   width:100%;
